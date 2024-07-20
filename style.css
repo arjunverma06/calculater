@@ -1,0 +1,60 @@
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+    background-color: #6c757d;
+    background-image: url(https://img.freepik.com/free-photo/top-view-desk-concept-with-notepad_23-2148604955.jpg?t=st=1721461032~exp=1721464632~hmac=6781755a5e2687ac6ad94ff9938843a611192b3b9ee97140388fc713f09c3181&w=1060);
+    /* background-size: contain; */
+   background-size: cover;
+   
+    background-repeat: no-repeat;
+}
+#calculater{
+    border: 2px solid #d3d3d3;
+    /* height: 80px; */
+    width: 200px;
+    /* height: 500px; */
+    border-radius: 10px;
+    transform: scale(1.2);
+    margin-top: 28px;
+    margin-right:120px;
+
+    /* text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; */
+}
+#display{
+    margin: 13px 14px 33px 17px; 
+    font-size: 41px;
+    padding:0px;
+    width: 82%;
+    background-color: #333533;
+    color: #d3d3d3;
+    border: 1px solid #99e2b4;
+}
+.button{
+    height: 50px;
+    width: 50px;
+    margin: 4px;
+    border: 2px solid black;
+    border-radius: 32px;
+}
+#keypad{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#id,#id1,#id2,#id3,#id4,#id5{
+    background-color: #ffbe0b;
+}
+#id6,#id7,#id8,#id9,#id10 ,#id11{
+background-color: #8d99ae;
+}
+#id12,#id13,#id14,#id15,#id16{
+    background-color: #b392ac;
+}
