@@ -68,5 +68,16 @@ background-color: #8d99ae;
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        margin-left: 70px;
+        background-color: #6c757d;
+    }
+}
+@media screen  and (min-width: 388px) and (max-width: 844px) {
+    #calculater
+    {
+        
+        
+        /* margin-left: 70px; */
+        background-color: #6c757d;
     }
 }
