@@ -7,8 +7,11 @@
     background-image: url(https://img.freepik.com/free-photo/top-view-desk-concept-with-notepad_23-2148604955.jpg?t=st=1721461032~exp=1721464632~hmac=6781755a5e2687ac6ad94ff9938843a611192b3b9ee97140388fc713f09c3181&w=1060);
     /* background-size: contain; */
    background-size: cover;
-   
+   background-image: center;
+   background-attachment: fixed;
     background-repeat: no-repeat;
+    /* width: 100vh;
+    height: 100vh; */
 }
 #calculater{
     border: 2px solid #d3d3d3;
@@ -57,4 +60,13 @@ background-color: #8d99ae;
 }
 #id12,#id13,#id14,#id15,#id16{
     background-color: #b392ac;
+}
+@media screen  and (min-width: 388px) and (max-width: 844px) {
+    .body
+    {
+        background-image: url(https://img.freepik.com/free-photo/back-school-decoration-with-pencils-calculator-space_23-2147662344.jpg?w=996&t=st=1721464568~exp=1721465168~hmac=6fd44b3eb7b6cbb23db90250d66fe10d3e3abe10feee44857fc135e5da129a74);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
 }
